@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/siner308/ecs-handson/issues"
   },
-  "homepage": "https://github.com/siner308/ecs-handson#readme"
+  "homepage": "https://github.com/siner308/ecs-handson#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
