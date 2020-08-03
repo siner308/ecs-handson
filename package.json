@@ -1,0 +1,19 @@
+{
+  "name": "ecs-handson",
+  "version": "1.0.0",
+  "description": "express with github action for ecs handson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siner308/ecs-handson.git"
+  },
+  "author": "siner308",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siner308/ecs-handson/issues"
+  },
+  "homepage": "https://github.com/siner308/ecs-handson#readme"
+}
