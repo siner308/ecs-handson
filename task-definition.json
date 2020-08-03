@@ -37,7 +37,7 @@
       "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "148455462321.dkr.ecr.ap-northeast-2.amazonaws.com/jeonghyunan:latest",
+      "image": "148455462321.dkr.ecr.ap-northeast-2.amazonaws.com/jeonghyun:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
