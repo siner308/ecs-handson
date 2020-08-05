@@ -5,21 +5,17 @@ const uuidv4 = require('uuid').v4;
 const app = express();
 const port = 3000;
 const uuid = uuidv4();
+const address = ip.address();
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send({
+    message: 'Hello World!',
+    address: address,
+    uuid: uuid,
+  })
 })
 
-app.get('/ip', (req, res) => {
-  const address = ip.address();
-  res.send(address);
-})
-
-app.get('/uuid', (req, res) => {
-  res.send(uuid);
-})
-
-app.get('/health', (req, res) => {
+app.get('/api/health', (req, res) => {
   res.send('OK')
 })
 
