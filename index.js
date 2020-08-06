@@ -9,7 +9,7 @@ const address = ip.address();
 
 app.get('/', (req, res) => {
   res.send({
-    message: 'Hello World!',
+    message: 'Hello ECS!',
     address: address,
     uuid: uuid,
   })
