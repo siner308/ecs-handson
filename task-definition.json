@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/taskci",
+          "awslogs-group": "/ecs/task-google",
           "awslogs-region": "ap-northeast-2",
           "awslogs-stream-prefix": "ecs"
         }
@@ -24,7 +24,7 @@
       ],
       "command": null,
       "linuxParameters": null,
-      "cpu": 256,
+      "cpu": 300,
       "environment": [],
       "resourceRequirements": null,
       "ulimits": null,
@@ -37,7 +37,7 @@
       "memoryReservation": 300,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "148455462321.dkr.ecr.ap-northeast-2.amazonaws.com/jeonghyun:latest",
+      "image": "148455462321.dkr.ecr.ap-northeast-2.amazonaws.com/google:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -54,19 +54,19 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "containerjh"
+      "name": "google-app"
     }
   ],
   "placementConstraints": [],
   "memory": "300",
   "taskRoleArn": "arn:aws:iam::148455462321:role/ecsTaskExecutionRole",
-  "family": "taskjh",
+  "family": "task-google",
   "pidMode": null,
   "requiresCompatibilities": [
     "EC2"
   ],
   "networkMode": null,
-  "cpu": "256",
+  "cpu": "300",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
   "volumes": []
